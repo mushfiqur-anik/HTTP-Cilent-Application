@@ -1,7 +1,7 @@
 # HTTP-Client-Application
 
 ## Description of the problem
-In this project a simple HTTP Client application was implemented and it was experimented with real HTTP Servers (web servers). HTTP Client was implemented with TCP Sockets built with Java. The HTTP library implements a subset of HTTP specifications, it mainly supports features like GET OPERATION, POST OPERATION, QUERY PARAMETERS, REQUEST HEADERS & BODY OF THE REQUESTS.
+In this project a simple HTTP Client application was implemented and it was experimented with real HTTP Servers (web servers). HTTP Client Library was implemented using TCP Sockets built with Java. The HTTP library implements a subset of HTTP specifications, it mainly supports features like GET operation, POST operation, Query parameters, Request headers & Body of the requests. A cURL-like command line named httpc.java was implemented to test the httpcClient application with real servers. 
 
 ## File List
 - HttpLibrary.java
