@@ -1,5 +1,4 @@
 package socket;
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -53,14 +52,11 @@ public class Httpc {
 			}
 			
 			// Post with inline data
-			
 			// Ask the user question again
 			System.out.print("Please enter 'quit' if you want to quit else keep going by inputing any other command: ");
 			userInput = user.nextLine();
 		}
 		
 		System.out.println("Application terminated!! ");
-		
 	}
-
 }
