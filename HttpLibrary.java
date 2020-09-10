@@ -29,7 +29,6 @@ public class HttpLibrary {
 				"    post executes a HTTP POST request and prints the response.\n" + 
 				"    help prints this screen.\n" + 
 				"Use \"httpc help [command]\" for more information about a command.\n");
-		
 	}
 	
 	public void httpcHelpGet() { 
@@ -83,10 +82,8 @@ public class HttpLibrary {
 			else {
 				temp2 = in.nextLine();
 			}
-			
 			count++;
 		}
-		
 		System.out.println(temp);
 	}
 	
@@ -115,7 +112,6 @@ public class HttpLibrary {
 		out.close();
 		in.close();
 		socket.close();
-		
 	}
 	
 	// Post request 
@@ -127,7 +123,6 @@ public class HttpLibrary {
 			String entityBody = "";
 			int entityBodyLength;
 			int indexOfHost = 0;
-			
 			
 			// Divide the link into array
 			arrOfStr = str.split(" ", 0);
@@ -157,8 +152,6 @@ public class HttpLibrary {
 				}
 			}
 			
-			
-			
 			entityBodyLength = entityBody.length();
 			
 			if(entityBody!= "") { 
@@ -184,8 +177,6 @@ public class HttpLibrary {
 			
 			out.close();
 			in.close();
-			socket.close();
-			
+			socket.close();	
 		}
-	
 }
